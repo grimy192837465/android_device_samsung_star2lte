@@ -9,6 +9,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/star2lte/device.mk)
 
+# Inherit some common ROM stuff.
+$(call inherit-product, vendor/ROM_NAME_HERE/config/common_full_phone.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := star2lte
 PRODUCT_NAME := full_star2lte
