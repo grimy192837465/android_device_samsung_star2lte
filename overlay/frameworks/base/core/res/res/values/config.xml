@@ -1,0 +1,4 @@
+<resources>
+<!-- Enable system navigation keys. -->
+   <bool name="config_supportSystemNavigationKeys">true</bool>
+</resources>
